@@ -65,6 +65,7 @@ tar
 wget
 fd
 curl
+sed
 
 *utils*
 pulseaudio
