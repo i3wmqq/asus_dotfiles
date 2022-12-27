@@ -63,6 +63,7 @@ xclip
 gzip
 tar
 wget
+fd
 curl
 
 *utils*
