@@ -1,0 +1,12 @@
+configuration {
+  display-drun: "Applications";
+  display-window: "Windows";
+  display-run: "Binary";
+  drun-display-format: "{icon} {name}";
+  font: "JetBrains Mono Nerd Font 12";
+  show-icons: true;
+  icon-theme: "Papirus";
+  modi: "window,run,drun";
+}
+
+@theme "~/.config/rofi/macchiato"

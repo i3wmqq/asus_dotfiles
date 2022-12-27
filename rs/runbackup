@@ -1,0 +1,15 @@
+#!/bin/sh
+
+sudo cp -r /usr/share/fonts/ttf . &&
+	cp -r ~/.config/btop . &&
+	cp -r ~/.config/alacritty . &&
+	cp -r ~/.config/i3 . &&
+	cp -r ~/.config/picom . &&
+	cp -r ~/.config/polybar . &&
+	cp -r ~/.config/rofi . &&
+	cp -r ~/.config/ranger . &&
+	cp -r ~/.tmux . &&
+	cp ~/.tmux.conf . &&
+	sudo cp /etc/lightdm/lightdm-mini-greeter.conf . &&
+	cp ~/.gitconfig . &&
+	sudo cp /etc/default/grub .
