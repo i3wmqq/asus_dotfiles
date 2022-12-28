@@ -1,8 +1,6 @@
 ### Boot package
 
 ```bash
-PACMAN
-*installed*
 base
 base-devel
 linux
@@ -54,12 +52,11 @@ unzip
 ncdu
 bat
 rust
-go
-python
 python-pip
+python
+go
 man
 ripgrep
-xclip
 gzip
 tar
 wget
@@ -67,7 +64,31 @@ fd
 curl
 sed
 
-*utils*
+AUR
+*installed*
+MAIN
+lightdm-mini-greeter
+papirus-icon-theme
+microsoft-edge-stable-bin
+
+CARGO
+*installed*
+MAIN
+fnm
+
+PACMAN*utils*
+zip
+unzip
+ncdu
+bat
+man
+ripgrep
+gzip
+tar
+wget
+fd
+curl
+sed
 pulseaudio
 kmix
 pipewire
@@ -91,14 +112,7 @@ netcat
 netstat-nat
 firefox
 
-AUR
-*installed*
-MAIN
-lightdm-mini-greeter
-papirus-icon-theme
-microsoft-edge-stable-bin
-
-*utils*
+AUR*utils*
 postman-bin
 catppuccin-gtk-theme-mocha
 asmfmt
@@ -107,9 +121,4 @@ sqlectron-gui
 spotify-tui
 heroku-cli
 visual-studio-code-bin
-
-CARGO
-*installed*
-MAIN
-fnm
 ```
