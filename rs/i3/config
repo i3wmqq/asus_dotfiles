@@ -2,7 +2,7 @@
 set $mod Mod4
 
 # Disable window title bar and adjust border
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 1
 
 # Workspace output to screen
 workspace 1 output eDP1
@@ -13,6 +13,14 @@ workspace 5 output eDP1
 workspace 6 output eDP1
 workspace 7 output eDP1
 workspace 8 output eDP1
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #8aadf4   #8aadf4
+client.focused_inactive #333333 #5f676a #ffffff #8aadf4   #8aadf4
+client.unfocused        #333333 #222222 #888888 #8aadf4   #8aadf4
+client.urgent           #2f343a #900000 #ffffff #8aadf4   #8aadf4
+client.placeholder      #000000 #0c0c0c #ffffff #8aadf4   #8aadf4
+client.background       #ffffff
 
 # Sound
 bindsym $mod+Up exec --no-startup-id amixer set Master 1%+
