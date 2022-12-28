@@ -19,8 +19,6 @@ xf86-video-intel
 
 ```bash
 PACMAN
-*installed*
-MAIN
 xorg-server
 i3-gaps
 lightdm
@@ -65,22 +63,25 @@ curl
 sed
 
 AUR
-*installed*
-MAIN
 lightdm-mini-greeter
 papirus-icon-theme
 microsoft-edge-stable-bin
 
 CARGO
-*installed*
-MAIN
 fnm
+
+PIP
+
 
 PACMAN*utils*
 zip
 unzip
 ncdu
 bat
+rust
+python-pip
+python
+go
 man
 ripgrep
 gzip
@@ -89,28 +90,6 @@ wget
 fd
 curl
 sed
-pulseaudio
-kmix
-pipewire
-go
-jre-openjdk
-rust
-clang
-lxappearance-gtk3
-python-pip
-python
-lld
-nasm
-dbeaver
-docker
-xclip
-vlc
-libreoffice-still
-blender
-obs-studio
-netcat
-netstat-nat
-firefox
 
 AUR*utils*
 postman-bin
