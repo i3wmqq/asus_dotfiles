@@ -33,10 +33,10 @@ exec --no-startup-id nitrogen --restore
 bindsym $mod+i exec --no-startup-id rofi -show power-menu -modi power-menu:~/.config/rofi/rofi-power-menu
 
 # Mouse 
-exec --no-startup-id xinput set-prop 12 327 -0.8
+exec --no-startup-id xinput set-prop 12 'libinput Accel Speed' -0.85
 
 # Touchpad
-exec --no-startup-id xinput set-prop 19 339 1
+exec --no-startup-id xinput set-prop 19 'libinput Tapping Enabled' 1
 
 # Start picom
 exec --no-startup-id picom

@@ -61,7 +61,6 @@ wget
 fd
 curl
 sed
-bitwarden
 
 AUR
 lightdm-mini-greeter
