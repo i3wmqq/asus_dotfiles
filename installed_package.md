@@ -25,7 +25,6 @@ lightdm
 picom
 xorg-xinput
 xorg-xbacklight
-alsa-utils
 alacritty
 polybar
 rofi
@@ -44,6 +43,7 @@ neofetch
 ueberzug
 lxappearance
 lightdm-gtk-greeter
+alsa-utils
 
 zip
 unzip
@@ -73,6 +73,27 @@ fnm
 PIP
 
 PACMAN*utils*
+zip
+unzip
+ncdu
+bat
+rust
+pulseaudio
+pulseaudio-alsa
+pulsemixer
+pavucontrol
+python-pip
+python
+go
+man
+ripgrep
+gzip
+tar
+wget
+fd
+curl
+sed
+alsa-utils
 
 AUR*utils*
 postman-bin

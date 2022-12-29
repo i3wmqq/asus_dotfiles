@@ -30,6 +30,13 @@ COPY TO FOLLOWING PWD
 ~/.gitconfig
 ```
 
+### ZSH shell theme
+
+```
+ZSH_THEME="skaro"
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+```
+
 ### Change cursors
 
 ```
