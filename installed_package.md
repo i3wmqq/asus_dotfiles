@@ -61,6 +61,7 @@ wget
 fd
 curl
 sed
+bitwarden
 
 AUR
 lightdm-mini-greeter
@@ -72,24 +73,7 @@ fnm
 
 PIP
 
-
 PACMAN*utils*
-zip
-unzip
-ncdu
-bat
-rust
-python-pip
-python
-go
-man
-ripgrep
-gzip
-tar
-wget
-fd
-curl
-sed
 
 AUR*utils*
 postman-bin
