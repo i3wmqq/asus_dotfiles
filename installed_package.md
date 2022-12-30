@@ -58,6 +58,7 @@ unzip
 wget
 curl
 fd
+375 package
 
 AUR
 lightdm-mini-greeter

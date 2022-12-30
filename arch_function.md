@@ -33,7 +33,7 @@ COPY TO FOLLOWING PWD
 ### ZSH shell theme
 
 ```
-ZSH_THEME="skaro"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 ```
 
