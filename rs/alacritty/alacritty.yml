@@ -37,7 +37,7 @@ font:
     family: JetBrainsMono Nerd Font
     style: Bold Italic
 
-  size: 7
+  size: 8
 
   macchiato: &macchiato
     primary:
