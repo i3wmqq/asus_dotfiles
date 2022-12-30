@@ -44,6 +44,9 @@ ueberzug
 lxappearance
 lightdm-gtk-greeter
 alsa-utils
+pulseaudio
+pulseaudio-alsa
+pavucontrol
 
 zip
 unzip
