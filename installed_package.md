@@ -45,6 +45,20 @@ git
 neofetch
 ueberzug
 
+rust
+python
+python-pip
+go
+sed
+ripgrep
+xclip
+gzip
+tar
+unzip
+wget
+curl
+fd
+
 AUR
 lightdm-mini-greeter
 papirus-icon-theme
