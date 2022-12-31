@@ -58,7 +58,7 @@ unzip
 wget
 curl
 fd
-375 package
+clang
 
 AUR
 lightdm-mini-greeter
