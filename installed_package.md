@@ -59,6 +59,7 @@ wget
 curl
 fd
 clang
+-377
 
 AUR
 lightdm-mini-greeter
