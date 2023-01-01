@@ -15,11 +15,11 @@ workspace 7 output eDP1
 workspace 8 output eDP1
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #4c7899 #285577 #ffffff #8aadf4   #8aadf4
-client.focused_inactive #333333 #5f676a #ffffff #8aadf4   #8aadf4
-client.unfocused        #333333 #222222 #888888 #8aadf4   #8aadf4
-client.urgent           #2f343a #900000 #ffffff #8aadf4   #8aadf4
-client.placeholder      #000000 #0c0c0c #ffffff #8aadf4   #8aadf4
+client.focused          #4c7899 #285577 #ffffff #ffffff #ffffff
+client.focused_inactive #333333 #5f676a #ffffff #ffffff #ffffff
+client.unfocused        #333333 #222222 #888888 #ffffff #ffffff
+client.urgent           #2f343a #900000 #ffffff #ffffff #ffffff
+client.placeholder      #000000 #0c0c0c #ffffff #ffffff #ffffff
 client.background       #ffffff
 
 # Sound
